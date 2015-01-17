@@ -15,9 +15,9 @@
 1. General
 ==================================== */
 
-body {
+html, body {
 	font-family:'Open Sans', Arial, sans-serif;
-	font-size:14px;
+	font-size:100%;
 	font-weight:300;
 	line-height:1.6em;
 	color:#656565;
@@ -46,6 +46,7 @@ h1,h2, h3, h4, h5, h6 {
 .container {
 	padding:0 20px 0 20px;
 	position:relative;
+        width:1053px;
 }
 
 #wrapper{
@@ -67,7 +68,65 @@ h1,h2, h3, h4, h5, h6 {
 	margin-bottom:0;
 }
 
+.services {
+    padding: 3em 0px;
+    background: url("../img/services-bg.jpg") repeat scroll 0% 0% transparent;
+}
 
+.services-head h3 {
+    
+    text-transform: uppercase;
+    color: #F4BB36;
+    font-weight: 700;
+    font-size: 1.6em;
+    margin: 0px 0px 0.5em;
+}
+
+.services-grid-right h4 a:hover {
+    text-decoration: none;
+    color: #F4BB36;
+}
+
+.services-head p {
+    color: #414141;
+    font-size: 0.875em;
+    width: 80%;
+    margin: 0px auto;
+    line-height: 1.8em;
+}
+
+.services-grids {
+    margin-top: 0.5em;
+}
+
+.services-grid {
+    margin-top: 2em;
+}
+
+body a {
+    transition: all 0.5s ease 0s;
+}
+
+.services-grid-left a span {
+    width: 64px;
+    height: 64px;
+    background: url("../img/github.png") no-repeat scroll 0px 0px transparent;
+    display: inline-block;
+    margin-top: 0.2em;
+}
+
+.services-grid-right p {
+    
+font-size: 16px;
+color: #787878;
+font-weight: 400;
+line-height: 24px;
+}
+
+.services-grid-right h4 a {
+    color: #222;
+    font-size: 1.4em;
+}
 
 /* ===================================
 3. Responsive media
