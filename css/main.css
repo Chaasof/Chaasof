@@ -300,7 +300,7 @@ input.search-form:hover {
 
 .navbar-inverse .navbar-brand {
   font-size: 36px;
-  line-height: 50px;
+  line-height: 110px;
   color: #fff;
 }
 
@@ -1415,9 +1415,6 @@ ul.social_icons li  a i{
 ****Service page css****
 ***********************/
 
-.services {
-  padding: 0;
-}
 
 .get-started {
   background: none repeat scroll 0 0 #F3F3F3;

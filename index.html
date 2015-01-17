@@ -28,27 +28,14 @@
 <div id="wrapper">
 	<!-- start header -->
 	<header>
-        <div class="navbar navbar-default navbar-static-top">
+        <div class="navbar navbar-inverse navbar-static-top">
             <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+                <div class="navbar-header"> 
                     <a class="navbar-brand" href="index.html"><span>S</span>ofien<span> C</span>haabouni</a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">Home</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Features <b class=" icon-angle-down"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="typography.html">Typography</a></li>
-                                <li><a href="components.html">Components</a></li>
-								<li><a href="pricingbox.html">Pricing box</a></li>
-                            </ul>
-                        </li>
                         <li><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="https://chaasof.wordpress.com/">Blog</a></li>
                         <li><a href="contact.html">Contact</a></li>
@@ -73,7 +60,7 @@
 
 <h4 style="line-height: 1.2em; font: 46px/1.2em 'Noticia Text',serif;color: #606060;" class="font_4"><span style="line-height: 1.2em;"><span class="color_14">ingénieur informatique</span></span></h4>
 </div>
-<div style="position: absolute; width: 690px; left: 490px; top: 240px;" class="s1" id="WRchTxtg" ><p style="line-height: 1.5em;" class="font_8"><span style="line-height:1.5em;">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story and let your users get to know you.</span></p>
+<div style="position: absolute; width: 690px; left: 490px; top: 240px;" class="s1" id="WRchTxtg" ><p style="line-height: 1.5em;" class="font_8"><span style="line-height:1.5em;">Sofien CHAABOUNI, élève ingénieur en systèmes et  logiciels embarqués ambiants et mobiles à l'École Supérieure Privée  d'Ingénierie et Technologies (ESPRIT). Passionné par le web et le travail communautaire et ce par mon implication au sein de la communauté Mozilla en tant que mentor dans le programme Reps et en tant que contributeur dans différents ateliers universitaires.</span></p>
 </div>
 	<!-- end slider -->
 			</div>
@@ -105,22 +92,29 @@
 	</div>
 	
 	</section>
+
+
 <!--
 ========================= CONTRIBUTION ==========================
  -->
-	<section id="feature">
-        	<div class="container">
-           		<div style="visibility: visible; animation-name: fadeInDown;" class="center wow fadeInDown animated">
-                		<h2>Contribution</h2>
-                			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            		</div>
+<section>
+<div id="ser" class="services">
+				<div class="container">
+					<div class="services-head text-center">
+						<h3>Derniére contribution</h3>
+						<p>Le monde des logiciels libres -Github-. </p>
+					</div>
+					<div id="tab" class="services-grids">
+					
+					</div>
+				</div>
+			</div>
+</section>
 
-            <div class="row">
-                <div class="features" id="tab">
-                </div><!--/.services-->
-            </div><!--/.row-->    
-        </div><!--/.container-->
-    </section>
+
+<!--
+========================= Organisations ==========================
+ -->
 
 	<section id="content">
 	<div class="container">
@@ -135,7 +129,7 @@
 								<i class="fa fa-desktop fa-3x"></i>
 								</div>
 								<p>
-								 Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
+								 La communauté locale de Mozilla en Tunisie fondée en 2010.
 								</p>
 									
 							</div>
@@ -152,7 +146,7 @@
 								<i class="fa fa-pagelines fa-3x"></i>
 								</div>
 								<p>
-								 Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
+								 Organisation à but non lucratif.
 								</p>
 									
 							</div>
@@ -169,7 +163,7 @@
 								<i class="fa fa-edit fa-3x"></i>
 								</div>
 								<p>
-								 Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
+								 Club universitaire des logiciels libres.
 								</p>
 									
 							</div>
@@ -186,7 +180,7 @@
 								<i class="fa fa-code fa-3x"></i>
 								</div>
 								<p>
-								 Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
+								 Contributeur dans plusieur autres projets libres.
 								</p>
 									
 							</div>
@@ -344,10 +338,8 @@ function printRepoCount() {
   for (i = 0; i <= responseObj.length; i++) {
 
     if ((responseObj[i].updated_at > "2014-12-12T00:00:00Z")&& (a < 7)) {
-	tab.innerHTML += "<div style='visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;' class='col-md-4 col-sm-6 wow fadeInDown animated' data-wow-duration='1000ms' data-wow-delay='600ms'> <div class='feature-wrap'> <i class='fa fa-bullhorn'></i>  <h2>"+ responseObj[i].name +"</h2> <h3>"+ responseObj[i].description +"</h3> </div> </div>";
-
-
-//tab.innerHTML += "<li class='col-lg-3 design' data-id='id-"+a+"'data-type='web'><div class='item-thumbs'><a class='hover-wrap fancybox' data-fancybox-group='gallery' title='"+responseObj[i].name+"' href='https://raw.githubusercontent.com/melekJe/github_theme/master/moderna/img/works/"+ a +".jpg'><span class='overlay-img'></span><span class='overlay-img-thumb font-icon-plus'></span></a><img src='https://raw.githubusercontent.com/melekJe/github_theme/master/moderna/img/works/"+ a +".jpg' alt='"+responseObj[i].description+"'></div></li>";
+	tab.innerHTML += "<div class='col-md-4 services-grid'><div class='col-md-3 services-grid-left'><a class='top-icon1' href="+ responseObj[i].html_url+ "><span></span></a></div><div class='col-md-9 services-grid-right'><h4><a href="+ responseObj[i].html_url +">"+ responseObj[i].name +"</a></h4><p>"+ responseObj[i].description +".</p></div><div class='clearfix'> </div></div>"
+	
     a+=1;
     }
 
