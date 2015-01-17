@@ -46,7 +46,7 @@ h1,h2, h3, h4, h5, h6 {
 .container {
 	padding:0 20px 0 20px;
 	position:relative;
-        width:1053px;
+        width:1030px;
 }
 
 #wrapper{
@@ -160,7 +160,7 @@ img.img-polaroid {
 
 
 header .navbar {
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 
 .navbar-default {
@@ -185,7 +185,7 @@ header .navbar-collapse  ul.navbar-nav {
 }
 
 header .navbar-default{
-    background-color: #fff;
+    background-color: #D0FCEE;
 }
 
 header .nav li a:hover,
