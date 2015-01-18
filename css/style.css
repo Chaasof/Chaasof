@@ -62,6 +62,7 @@ body > header div.header-left div.subtitle {
 
 .row,.row-fluid {
 	margin-bottom:30px;
+	margin-top: 30px;
 }
 
 .row .row,.row-fluid .row-fluid{
@@ -89,14 +90,14 @@ body > header div.header-left div.subtitle {
 }
 
 .memberOf {
- padding: 5em 0 4em;
+ padding: 2em 0 0;
  text-align: center;
 }
 .memberOf-grid h3 {
  color: #000;
  font-size: 3.5em;
  font-weight: 300;
- margin: 0 0 0.3em;
+ margin: 0 0 26px;
  text-transform: uppercase;
 }
 .memberOf-grid h3 span {
@@ -105,7 +106,7 @@ body > header div.header-left div.subtitle {
 .memberOf-grid p {
  color: #000;
  font-size: 1.2em;
- margin: 2em 0;
+ margin: 2em 0 0;
 }
 
 .ser-in h6 {
@@ -161,7 +162,7 @@ body > header div.header-left div.subtitle {
 }
 
 .services {
-    padding: 3em 0px;
+    padding: 4em 0px;
     background: url("../img/services-bg.jpg") repeat scroll 0% 0% transparent;
 }
 
