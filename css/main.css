@@ -25,12 +25,17 @@ h6 {
 }
 
 h1{
-  font-size: 36px;
-  color:#fff;
+  font-size: 41px;
+  color: #180F0F;
+  font-family: "PT Serif","Georgia","Helvetica Neue",Arial,sans-serif;
+  font-weight: normal;
+  line-height: 0.4em;
 }
 
 h2{
   font-size: 20px;
+  padding-left: 2%;
+
 }
 
 h3{
