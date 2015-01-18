@@ -39,6 +39,10 @@ h1,h2, h3, h4, h5, h6 {
 	margin-bottom: 20px;
 }
 
+body > header div.header-left div.subtitle {
+    padding-left: 2%;
+}
+
 /* ===================================
 2. layout
 ==================================== */
@@ -68,6 +72,94 @@ h1,h2, h3, h4, h5, h6 {
 	margin-bottom:0;
 }
 
+.memberOf {
+ padding: 5em 0 4em;
+ text-align: center;
+}
+.memberOf-grid h3 {
+ color: #000;
+ font-size: 3.5em;
+ font-weight: 300;
+ margin: 0 0 0.3em;
+ text-transform: uppercase;
+}
+
+.memberOf-grid h3 span {
+ font-weight: 600;
+}
+
+.memberOf {
+ padding: 5em 0 4em;
+ text-align: center;
+}
+.memberOf-grid h3 {
+ color: #000;
+ font-size: 3.5em;
+ font-weight: 300;
+ margin: 0 0 0.3em;
+ text-transform: uppercase;
+}
+.memberOf-grid h3 span {
+ font-weight: 600;
+}
+.memberOf-grid p {
+ color: #000;
+ font-size: 1.2em;
+ margin: 2em 0;
+}
+
+.ser-in h6 {
+ color: #000;
+ font-size: 30px;
+ margin: 0.5em 0;
+}
+.ser-in p {
+ color: #000;
+ font-size: 1.1em;
+ margin: 1em auto;
+}
+
+.ser-in img.mozilla{
+  width:138px;
+  margin-top:20px;
+  margin-bottom:12px;
+}
+.ser-in img.moztn{
+  width:150px;
+  margin-top:28px;
+  margin-bottom:18px;
+
+}
+
+.ser-in img.esprit{
+  width:127px;
+}
+
+.ser-in img.os{
+  width:132px;
+  margin-top:16px;
+  margin-bottom:8px;
+}
+
+.ser-in span {
+ background: url("../img/img-sprite.png") repeat scroll -58px -10px rgba(0, 0, 0, 0);
+ display: inline-block;
+ height: 127px;
+ width: 133px;
+}
+.ser-in span.mobile {
+ background-position: -199px -10px;
+}
+.ser-in span.camera {
+ background-position: -338px -10px;
+}
+.ser-in span.mike {
+ background-position: -488px -10px;
+}
+.ser-grid {
+ padding: 4em 0;
+}
+
 .services {
     padding: 3em 0px;
     background: url("../img/services-bg.jpg") repeat scroll 0% 0% transparent;
@@ -75,10 +167,9 @@ h1,h2, h3, h4, h5, h6 {
 
 .services-head h3 {
     
-    text-transform: uppercase;
     color: #F4BB36;
     font-weight: 700;
-    font-size: 1.6em;
+    font-size: 1.8em;
     margin: 0px 0px 0.5em;
 }
 
@@ -89,7 +180,7 @@ h1,h2, h3, h4, h5, h6 {
 
 .services-head p {
     color: #414141;
-    font-size: 0.875em;
+    font-size: 1em;
     width: 80%;
     margin: 0px auto;
     line-height: 1.8em;
@@ -120,12 +211,12 @@ body a {
 font-size: 16px;
 color: #787878;
 font-weight: 400;
-line-height: 24px;
+line-height: 22px;
 }
 
 .services-grid-right h4 a {
     color: #222;
-    font-size: 1.4em;
+    font-size: 20px;
 }
 
 /* ===================================

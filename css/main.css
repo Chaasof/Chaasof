@@ -25,12 +25,17 @@ h6 {
 }
 
 h1{
-  font-size: 36px;
-  color:#fff;
+  font-size: 41px;
+  color: #180F0F;
+  font-family: "PT Serif","Georgia","Helvetica Neue",Arial,sans-serif;
+  font-weight: normal;
+  line-height: 0.4em;
 }
 
 h2{
   font-size: 20px;
+  padding-left: 2%;
+
 }
 
 h3{
@@ -651,7 +656,7 @@ input.search-form:hover {
 .recent-work-wrap:hover .overlay {
   opacity: 1;
 }
-
+/*
 #services {
   background: #000 url(../images/services/bg_services.png);
   background-size: cover;
@@ -677,7 +682,7 @@ input.search-form:hover {
 .services-wrap .pull-left {
   margin-right: 20px;
 }
-
+*/
 #middle {
   background: #f2f2f2;
 }
