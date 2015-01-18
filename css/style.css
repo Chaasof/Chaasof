@@ -74,22 +74,6 @@ body > header div.header-left div.subtitle {
 }
 
 .memberOf {
- padding: 5em 0 4em;
- text-align: center;
-}
-.memberOf-grid h3 {
- color: #000;
- font-size: 3.5em;
- font-weight: 300;
- margin: 0 0 0.3em;
- text-transform: uppercase;
-}
-
-.memberOf-grid h3 span {
- font-weight: 600;
-}
-
-.memberOf {
  padding: 2em 0 0;
  text-align: center;
 }
@@ -129,7 +113,6 @@ body > header div.header-left div.subtitle {
   width:150px;
   margin-top:28px;
   margin-bottom:18px;
-
 }
 
 .ser-in img.esprit{
@@ -142,21 +125,6 @@ body > header div.header-left div.subtitle {
   margin-bottom:8px;
 }
 
-.ser-in span {
- background: url("../img/img-sprite.png") repeat scroll -58px -10px rgba(0, 0, 0, 0);
- display: inline-block;
- height: 127px;
- width: 133px;
-}
-.ser-in span.mobile {
- background-position: -199px -10px;
-}
-.ser-in span.camera {
- background-position: -338px -10px;
-}
-.ser-in span.mike {
- background-position: -488px -10px;
-}
 .ser-grid {
  padding: 4em 0;
 }
