@@ -61,8 +61,8 @@ body > header div.header-left div.subtitle {
 
 
 .row,.row-fluid {
-	margin-bottom:30px;
-	margin-top: 30px;
+	/*margin-bottom:30px;
+	margin-top: 30px;*/
 }
 
 .row .row,.row-fluid .row-fluid{
@@ -220,7 +220,7 @@ img.img-polaroid {
 
 
 header .navbar {
-    margin-bottom: 30px;
+   /* margin-bottom: 30px; */
 }
 
 .navbar-default {
@@ -427,7 +427,7 @@ ul.nav li.dropdown a {
 
 #featured{
 	width: 100%;
-	background:#fcfcfc;
+	background: url("../img/services-bg.jpg") repeat scroll 0% 0% transparent;
 	position:relative;
 	margin:0;
 	padding:0;
@@ -470,7 +470,7 @@ section.callaction {
 #content {
 	position:relative;
 	background:#fff;
-	padding:50px 0 40px 0;
+	padding: 20px 0 40px 0;
 }
 
 #content img {
