@@ -5,7 +5,6 @@
 /*************************
 *******Typography******
 **************************/
-
 body {
   background: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -21,16 +20,21 @@ h5,
 h6 {
   font-weight: 600; 
   font-family: 'Open Sans', sans-serif;
-  color:#4e4e4e;
+  color:rgb(0, 0, 0);
 }
 
 h1{
-  font-size: 36px;
-  color:#fff;
+  font-size: 41px;
+  color: #FFF;
+  font-family: "PT Serif","Georgia","Helvetica Neue",Arial,sans-serif;
+  font-weight: normal;
+  line-height: 0.4em;
 }
 
 h2{
   font-size: 20px;
+  padding-left: 2%;
+
 }
 
 h3{
@@ -266,7 +270,7 @@ input.search-form:hover {
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
-  background: #151515;
+  background: #567AF9;
   padding: 15px 0;
   padding-bottom: 0;
 }
@@ -310,7 +314,7 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #c52d2f;
+  background-color: #27B412;
   color: #fff;
 }
 
@@ -651,7 +655,7 @@ input.search-form:hover {
 .recent-work-wrap:hover .overlay {
   opacity: 1;
 }
-
+/*
 #services {
   background: #000 url(../images/services/bg_services.png);
   background-size: cover;
@@ -677,7 +681,7 @@ input.search-form:hover {
 .services-wrap .pull-left {
   margin-right: 20px;
 }
-
+*/
 #middle {
   background: #f2f2f2;
 }
